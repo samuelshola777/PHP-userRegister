@@ -1,6 +1,11 @@
 <?php
 
- class AppUser{
-    private $id;
- }
-?>
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class AppUser extends Model
+{
+    use HasFactory;
+}

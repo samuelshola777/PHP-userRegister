@@ -10,6 +10,6 @@ class Player extends Model
     use HasFactory;
 
 
-    private string $email;
-    private string $password;
+   protected $fillable = ["name", "email"];
+
 }
